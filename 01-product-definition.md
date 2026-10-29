@@ -29,9 +29,11 @@ See [02-main-journey.md](02-main-journey.md) for the inputs and outputs of each 
 
 ## 4. Where is the biggest friction?
 
-The biggest friction is in **tracking progress** (step 6), because it contains a lot of assumptions, and it aligns with the product target.
+The biggest friction is the **job match score** (step 4). It is the moment the user decides whether the product helped, and if the score is not trusted, users leave before they reach later steps.
 
-See [03-defining-friction.md](03-defining-friction.md) for the method used to define and score friction.
+**Tracking progress** (step 6) was the first answer. It has the most assumptions, but much of its friction is inherited from the score, because the north-star metric (advancement) is calculated from it. It remains the biggest long-term risk.
+
+See [03-defining-friction.md](03-defining-friction.md) for the method and the scores, and [07-match-score-system.md](07-match-score-system.md) for the design of the score.
 
 ## 5. What metric matters most?
 
